@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // 🔹 API URL
             // =============================================
             const apiUrl =
-                `http://127.0.0.1:8000/api/risk-analysis?location=${encodeURIComponent(
+                `http://marinesense-backend.onrender.com/api/risk-analysis?location=${encodeURIComponent(
                     selectedLocation
                 )}`;
 
