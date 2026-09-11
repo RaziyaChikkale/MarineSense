@@ -431,7 +431,7 @@ document.addEventListener("DOMContentLoaded", () => {
             () => {
 
                 window.open(
-                    "http://marinesense-backend.onrender.com/api/download-report",
+                    "https://marinesense-backend.onrender.com/api/download-report",
                     "_blank"
                 );
 
