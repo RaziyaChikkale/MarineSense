@@ -9,7 +9,7 @@ console.log("🌊 MarineSense dashboard.js loaded");
 // ============================================================
 
 const API_BASE =
-    "https://marinesense-production-ae8b.up.railway.app/";
+    "https://marinesense-backend.onrender.com/";
 
 // ============================================================
 // CHART VARIABLES
