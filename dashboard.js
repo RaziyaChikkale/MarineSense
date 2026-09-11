@@ -9,7 +9,7 @@ console.log("🌊 MarineSense dashboard.js loaded");
 // ============================================================
 
 const API_BASE =
-    "http://127.0.0.1:8000";
+    "https://marinesense-backend.onrender.com/";
 
 // ============================================================
 // CHART VARIABLES
