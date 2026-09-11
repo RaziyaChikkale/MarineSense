@@ -9,7 +9,7 @@ console.log("🌊 MarineSense dashboard.js loaded");
 // ============================================================
 
 const API_BASE =
-    "https://marinesense-production.up.railway.app";
+    "https://marinesense-production.up.railway.app/";
 
 // ============================================================
 // CHART VARIABLES
