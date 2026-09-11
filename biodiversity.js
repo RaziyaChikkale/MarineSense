@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // =============================================
 
             const apiUrl =
-                `http://127.0.0.1:8000/api/biodiversity?location=${encodeURIComponent(selectedLocation)}`;
+                `https://marinesense-backend.onrender.com/api/biodiversity?location=${encodeURIComponent(selectedLocation)}`;
 
             console.log(
                 "📡 Biodiversity API:",
