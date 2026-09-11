@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // =============================================
 
             const apiUrl =
-                `http://marinesense-backend.onrender.com/api/advisory?location=${encodeURIComponent(selectedLocation)}`;
+                `https://marinesense-backend.onrender.com/api/advisory?location=${encodeURIComponent(selectedLocation)}`;
 
             console.log(
                 "📡 Advisory API URL:",
