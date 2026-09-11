@@ -1,12 +1,22 @@
 function login() { 
  
     const email = 
-        document.getElementById("email").value.trim(); 
+        document.getElementById( 
+            "email" 
+        ).value; 
  
     const password = 
-        document.getElementById("password").value.trim(); 
+        document.getElementById( 
+            "password" 
+        ).value; 
  
-    if (email !== "" && password !== "") { 
+    if ( 
+        email === 
+        "admin@marinesense.com" 
+        && 
+        password === 
+        "123456" 
+    ) { 
  
         localStorage.setItem( 
             "marine_login", 
@@ -15,7 +25,7 @@ function login() {
  
         localStorage.setItem( 
             "marine_user", 
-            email 
+            "Admin" 
         ); 
  
         window.location.href = 
@@ -24,7 +34,9 @@ function login() {
  
     else { 
  
-        document.getElementById("error").innerText = 
-            "Please enter a username/email and password"; 
+        document.getElementById( 
+            "error" 
+        ).innerText = 
+            "Invalid Email or Password"; 
     } 
-}
+} 
